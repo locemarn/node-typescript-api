@@ -7,4 +7,3 @@ beforeAll(async () => {
   await server.init();
   global.testRequest = supertest(server.getApp());
 });
-
